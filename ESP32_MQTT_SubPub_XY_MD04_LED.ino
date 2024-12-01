@@ -87,5 +87,5 @@ void loop() {
         client.publish(topicHumi, buf);
         Serial.print(topicHumi); Serial.print(" : "); Serial.println(buf);
     } 
-    delay(4000);
+    delay(2000);
 }

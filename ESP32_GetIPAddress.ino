@@ -1,11 +1,10 @@
 #include <WiFi.h>
-const char* ssid = "Ria2G";           // AP_NAME
-const char* password = "730124go";    // PASSWORD
+const char* ssid = "AP_NAME";         // AP_NAME  : 공유기 이름
+const char* password = "PASSWORD";    // PASSWORD : 패스워드
 
 void setup() {
     Serial.begin(115200);
     Serial.print("\nConnecting to " + String(ssid));
-    //Serial.println(ssid);
 
     // 해당 공유기에 접속 시도
     WiFi.begin(ssid, password);

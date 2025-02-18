@@ -37,7 +37,7 @@ void setup() {
     }
     Serial.println("Connected to the Broker!!!");  
     
-    Serial.printf("Subscribing! topic = %s", topic);
+    Serial.println("Subscribing! topic = %s", topic);
     client.subscribe(topic);
 }
 

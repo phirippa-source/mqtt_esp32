@@ -7,6 +7,7 @@ const char* serverIPAddr = "IP Address of MQTT Broker";
 const char* userId = "username";
 const char* userPw = "password";
 const char* clientId = "unique client ID";
+const char* topic = "MyOffice/Outdoor/Temp";
 
 WiFiClient wifiClient; 
 PubSubClient client(serverIPAddr, 1883, wifiClient);

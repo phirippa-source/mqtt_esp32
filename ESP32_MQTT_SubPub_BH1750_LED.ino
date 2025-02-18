@@ -11,6 +11,7 @@ const char* serverIPAddr = "192.168.0.16";
 const char* userId = "ship";
 const char* userPw = "1234";
 const char* clientId = "unique client ID";
+
 const char* topicSub = "MyOffice/Outdoor/Led";
 const char* topicPub = "MyOffice/Outdoor/Lux";
 

@@ -7,7 +7,7 @@ const char* serverIPAddr = "192.168.0.16";
 const char* userId = "ship";
 const char* userPw = "1234";
 const char* clientId = "unique client ID";
-const char* topic = "MyOffice/Outdoor/Sensor";
+const char* topic = "MyOffice/Outdoor/Command";
 char msgBuf[64];
 
 void on_message(char* topic, byte* payload, unsigned int length) { 

@@ -4,7 +4,7 @@
 const char* ssid = "Ria2G";
 const char* password = "730124go";
 const char* serverIPAddr = "192.168.0.16";
-const char* userId = "mqtt_ship";
+const char* userId = "ship";
 const char* userPw = "1234";
 const char* clientId = "unique client ID";
 const char* topic = "MyOffice/Outdoor/Led";

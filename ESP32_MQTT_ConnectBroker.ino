@@ -1,11 +1,11 @@
 #include <WiFi.h>
 #include <PubSubClient.h>
 
-const char* ssid = "Ria2G";
-const char* password = "730124go";
-const char* serverIPAddr = "192.168.0.16";
-const char* userId = "mqtt_ship";
-const char* userPw = "1234";
+const char* ssid = "AP_NAME";
+const char* password = "PASSWORD";
+const char* serverIPAddr = "IP Address of MQTT Broker";
+const char* userId = "username";
+const char* userPw = "password";
 const char* clientId = "unique client ID";
 
 WiFiClient wifiClient; 

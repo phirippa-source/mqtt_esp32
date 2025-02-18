@@ -50,7 +50,7 @@ void setup() {
     }
     Serial.println("Connected to the Broker!!!");  
     
-    Serial.printf("Subscribing! topic = %s", topicSub);
+    Serial.printf("Subscribing! topic = %s\n", topicSub);
     client.subscribe(topicSub);
 
     // GPIO pin setup & BH1750

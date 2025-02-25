@@ -8,11 +8,12 @@ const char* userId = "ship";
 const char* userPw = "1234";
 const char* clientId = "unique client ID";
 const char* topic = "MyOffice/Outdoor/Command";
+char msgBuf[64];
 
 void on_message(char* topic, byte* payload, unsigned int length) { 
-    char msgBuf[64];
     Serial.printf("Message arrived!\nTopic: %s\nLen. of payload: %d\n", topic, length);
     strncpy(msgBuf, (char*)payload, length);
+    msgBuf[length] = '\0';
     Serial.printf("Payload: %s\n", msgBuf);
 }
 

@@ -67,5 +67,5 @@ void loop() {
     sprintf(buf, "%.1f", lux);
     client.publish(topicPub, buf);
     Serial.println( String(topicPub) + " : " + String(buf) );
-    delay(2000);
+    delay(1000);
 }

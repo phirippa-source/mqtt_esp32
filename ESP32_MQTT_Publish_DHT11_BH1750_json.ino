@@ -65,5 +65,5 @@ void loop() {
   client.publish(topic, payload);
   Serial.print(String(topic) + " ");
   Serial.println(payload); 
-  delay(2000);
+  delay(1000);
 }
